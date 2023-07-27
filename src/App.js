@@ -12,7 +12,6 @@ function App() {
 
     function onSearch(id) {
       axios(`https://rickandmortyapi.com/api/character/${id}`).then(({ data }) => {
-         console.log('API Response:', data)
       if (data.name) {
             setCharacters((oldChars) => [...oldChars, data]);
          } else {
