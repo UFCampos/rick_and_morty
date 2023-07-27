@@ -12,7 +12,8 @@ function App() {
 
     function onSearch(id) {
       axios(`https://rickandmortyapi.com/api/character/${id}`).then(({ data }) => {
-         if (data.name) {
+         console.log('API Response:', data)
+      if (data.name) {
             setCharacters((oldChars) => [...oldChars, data]);
          } else {
             window.alert('¡No hay personajes con este ID!');
@@ -20,9 +21,9 @@ function App() {
       });
    }
 
-   const onClose = (id) => {
-      setCharacters((oldChars) => oldChars.filter((char) => char.id!== id));
-   };
+  const onClose = (id) => {
+    setCharacters((oldChars) => oldChars.filter((char) => char.id !== id));
+  };
    return (
       <div className='App'>
          <Nav onSearch={onSearch}/>
