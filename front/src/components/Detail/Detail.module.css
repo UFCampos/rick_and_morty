@@ -1,0 +1,29 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10rem 1rem 1rem 1rem;
+    align-items: center;
+    background-color: #3333337e;
+
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin-bottom: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}

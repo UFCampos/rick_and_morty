@@ -1,0 +1,38 @@
+.fade-enter {
+    opacity: 0;
+    animation: cardAdded 600ms cubic-bezier(.08,.82,.17,1);
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 600ms, animation 1000ms;
+  }
+  .fade-exit {
+    opacity: 1;
+    animation: cardDel 600ms cubic-bezier(.08,.82,.17,1);
+    transform: scale(0);
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 600ms, transform 600ms;
+  }
+
+  @keyframes cardAdded {
+    0% {
+      transform: translateY(-100rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes cardDel {
+    0% {
+      transform: translateX(-1%);
+    }
+    50%{
+      transform: translateX(-4%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  

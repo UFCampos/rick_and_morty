@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Proyecto Integrador
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En este repositorio deberás desarrollar tu Proyecto Integrador. Durante el Módulo 2 trabajarás principalmente en la carpeta "front", luego en el Módulo 3 empezarás a utilizar la carpeta "back" (puedes dejarla así como está por el momento).
 
-## Available Scripts
+En la carpeta "front" te encontrarás con un Proyecto inicializado con el Framework Vite. NO TE PREOCUPES, no debes cambiar ninguna configuración. Simplemente sigue las instrucciones de tu Instructor/a que te irá guiando y de las consignas de la Homework.
 
-In the project directory, you can run:
+Recuerda que para realizar las peticiones a la API externa de Rick & Morty, utilizaremos la siguiente URL como ejemplo:
 
-### `npm start`
+https://rym2-production.up.railway.app/api/character/10?key={tu-api-key}
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Donde tu API KEY está compuesta de la siguiente manera: `henrym-{tu-usuario-de-github}`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Recuerda que tu usuario de Github debe ir en minúsculas, por ejemplo: `henrym-misuaurio`
 
-### `npm test`
+Aspectos a tener en cuenta:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Recuerda ir PUSHEANDO los avances de tu proyecto diariamente. No importa si avanzaste mucho, poco, o todavía tienes consignas por completar. Es importante que vayas actualizando el repositorio con tu trabajo.
 
-### `npm run build`
+- Es VITAL que utilices tu API KEY personal, y no la compartas con tus compañeros/as. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Si alguna petición a la API te responde con un error, checkea bien que hayas escrito correctamente el endpoint y tu API KEY.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Muchos éxitos en este Proyecto! 
